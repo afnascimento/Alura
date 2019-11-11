@@ -1,0 +1,19 @@
+apply plugin: 'com.adarshr.test-logger'
+
+testlogger {
+    theme 'standard' //'standard' 'mocha'
+    showExceptions true
+    showStackTraces true
+    showFullStackTraces true
+    showCauses true
+    slowThreshold 2000
+    showSummary true
+    showSimpleNames false
+    showPassed true
+    showSkipped true
+    showFailed true
+    showStandardStreams false
+    showPassedStandardStreams true
+    showSkippedStandardStreams true
+    showFailedStandardStreams true
+}
